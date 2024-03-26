@@ -1,0 +1,8 @@
+FROM mcr.microsoft.com/devcontainers/go:1-1.21-bullseye
+
+# install gdb
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
+    && apt-get -y install --no-install-recommends gcc git build-essential make cmake gdb
+
+EXPOSE 11434
+ENV OLLAMA_HOST 0.0.0.0

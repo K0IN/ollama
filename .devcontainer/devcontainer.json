@@ -1,0 +1,37 @@
+{
+  "name": "Ollama DEV Container",
+  "build": {
+    "context": "..",
+    "dockerfile": "dockerfile"
+  },
+  // To use your local .ollama model cache, uncomment the following line.
+  // you may need to change the path to match your local environment.
+  // "mounts": [
+  //   "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ollama,target=/root/.ollama,type=bind"
+  // ],
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "latest"
+    },
+    "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {
+      "fisher": true
+    },
+    "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+  },
+  "forwardPorts": [
+    11434
+  ],
+  "postCreateCommand": "git config --global --add safe.directory '*'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "ms-azuretools.vscode-docker",
+        "hanskre.markdown-execute"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
