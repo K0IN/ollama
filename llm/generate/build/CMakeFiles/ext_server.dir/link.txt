@@ -1,2 +1,0 @@
-/usr/bin/ar qc libext_server.a CMakeFiles/ext_server.dir/main.cpp.o
-/usr/bin/ranlib libext_server.a
