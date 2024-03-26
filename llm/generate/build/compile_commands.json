@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-build",
+  "command": "/usr/bin/cc -DGGML_USE_K_QUANTS -I/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/. -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mavx -std=gnu11 -o CMakeFiles/ggml.dir/ggml.c.o -c /mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/ggml.c",
+  "file": "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/ggml.c"
+},
+{
+  "directory": "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-build",
+  "command": "/usr/bin/cc -DGGML_USE_K_QUANTS -I/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/. -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mavx -std=gnu11 -o CMakeFiles/ggml.dir/k_quants.c.o -c /mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/k_quants.c",
+  "file": "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/k_quants.c"
+},
+{
+  "directory": "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-build",
+  "command": "/usr/bin/c++ -DGGML_USE_K_QUANTS -I/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/. -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mavx -std=gnu++11 -o CMakeFiles/llama.dir/llama.cpp.o -c /mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/llama.cpp",
+  "file": "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-src/llama.cpp"
+}
+]

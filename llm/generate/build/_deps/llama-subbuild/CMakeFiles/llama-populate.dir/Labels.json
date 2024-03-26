@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/CMakeFiles/llama-populate"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/CMakeFiles/llama-populate.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/CMakeFiles/llama-populate-complete.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/llama-populate-prefix/src/llama-populate-stamp/llama-populate-build.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/llama-populate-prefix/src/llama-populate-stamp/llama-populate-configure.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/llama-populate-prefix/src/llama-populate-stamp/llama-populate-download.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/llama-populate-prefix/src/llama-populate-stamp/llama-populate-install.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/llama-populate-prefix/src/llama-populate-stamp/llama-populate-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/llama-populate-prefix/src/llama-populate-stamp/llama-populate-patch.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/llama-populate-prefix/src/llama-populate-stamp/llama-populate-test.rule"
+		},
+		{
+			"file" : "/mnt/e/src/ollama-2/llm/generate/build/_deps/llama-subbuild/llama-populate-prefix/src/llama-populate-stamp/llama-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"llama-populate"
+		],
+		"name" : "llama-populate"
+	}
+}

@@ -1,4 +1,3 @@
-#if defined(LLAMA_SERVER_LIBRARY)
 #ifndef LLAMA_SERVER_H
 #define LLAMA_SERVER_H
 #include <stdbool.h>
@@ -92,4 +91,3 @@ void llama_server_release_json_resp(char **json_resp);
 #endif
 
 #endif
-#endif  // LLAMA_SERVER_LIBRARY
